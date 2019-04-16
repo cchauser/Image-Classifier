@@ -6,9 +6,6 @@ from keras.applications.vgg16 import VGG16
 
 import pandas as pd
 
-#I couldn't get it to get all the features from the images before the competition ended.
-#Oh well..
-
 print('loading model')
 model = VGG16()
 print('done')
